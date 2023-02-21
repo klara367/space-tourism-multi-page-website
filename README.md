@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [https://klara367.github.io/space-tourism-multi-page-website/](https://klara367.github.io/space-tourism-multi-page-website/)
 
 ### Built with
 
