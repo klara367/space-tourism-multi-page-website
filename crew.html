@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&family=Bellefair&display=swap">
+    <title>Crew</title>
+</head>
+<body id="crew-bcg">
+    <header class=" header display-flex gap-2 justify-space-between align-items-center">
+        <img src="./assets/shared/logo.svg" alt="">
+        <img src="./assets/shared/icon-hamburger.svg" alt="hamburger icon" class="hamburger-btn">
+        <nav class="margin-left-auto navigation blured-nav-bg">
+          <ul class="display-flex gap-2 flex-clmn">
+            <li class="fw-100"><a href="./index.html" class="uppercase underline"><b class="header-numbers">00</b>&nbsp;Home</a></li>
+            <li class="fw-100"><a href="./destination.html" class="uppercase underline"><b class="header-numbers">01</b>&nbsp;Destination</a></li>
+            <li class="fw-100"><a href="./crew.html" class="uppercase underline active"><b class="header-numbers">02</b>&nbsp;Crew</a></li>
+            <li class="fw-100"><a href="./technology.html" class="uppercase underline"><b class="header-numbers">03</b>&nbsp;Technology</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main >
+        <h1 class="uppercase fw-100 fs-500 margin-btm-3 h1-margin-left margin-top-3"><span class="clr-light">02</span> Meet your crew</h1>
+        <div class="display-grid gap-2 margin-top-4 margin-left">
+            <div class=" crew img-part justify-content-center display-flex">
+                <img src="./assets/crew/image-douglas-hurley.webp" alt="Douglas Hurley" class="member-photo mobile-img-width align-self-end">
+            </div>
+            <div class="text-part grid-reverse display-grid-members">
+                <div class="members-btn margin-btm-3 display-flex gap-1 justify-content-center">
+                    <button class="option member active-crew"></button>
+                    <button class="option member"></button>
+                    <button class="option member"></button>
+                    <button class="option member"></button>
+                </div>
+                <div>
+                    <p class="crew-member-role fw-100 margin-top-4 uppercase">Commander</p>
+                    <h2 class="crew-member h2 fw-100 uppercase fs-600">Douglas Hurley</h2>
+                    <p class="member-bio margin-btm-3 main-p fw-100 clr-light text-width">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

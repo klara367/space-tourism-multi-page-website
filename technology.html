@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&family=Bellefair&display=swap">
+
+    <title>Technology</title>
+</head>
+<body id="tech-bcg">
+    <header class=" header display-flex gap-2 justify-space-between align-items-center">
+        <img src="./assets/shared/logo.svg" alt="">
+        <img src="./assets/shared/icon-hamburger.svg" alt="hamburger icon" class="hamburger-btn">
+        <nav class="margin-left-auto navigation blured-nav-bg">
+          <ul class="display-flex gap-2 flex-clmn">
+            <li class="fw-100"><a href="./index.html" class="uppercase underline"><b class="header-numbers">00</b>&nbsp;Home</a></li>
+            <li class="fw-100"><a href="./destination.html" class="uppercase underline"><b class="header-numbers">01</b>&nbsp;Destination</a></li>
+            <li class="fw-100"><a href="./crew.html" class="uppercase underline"><b class="header-numbers">02</b>&nbsp;Crew</a></li>
+            <li class="fw-100"><a href="./technology.html" class="uppercase underline active"><b class="header-numbers">03</b>&nbsp;Technology</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <h1 class="uppercase fw-100 fs-500 margin-btm-3 h1-margin-left margin-top-3"><span class="clr-light">03</span> Space launch 101</h1>
+      <div class="tech display-grid gap-2 margin-top-4 margin-left margin-btm-3">
+        <picture class="img-part">
+          <source srcset="./assets/technology/image-launch-vehicle-portrait.jpg" alt="launch vehicle" class="technology-img-desktop" media="(min-width: 768px)"> 
+          <img src="./assets/technology/image-launch-vehicle-landscape.jpg" alt="launch vehicle" class="technology-img"> 
+        </picture>
+        <div class="text-part grid-reverse">
+          <div class="display-flex-tech display-flex">
+            <div class="technology-btn-part display-flex justify-content-center gap-2">
+              <div class="btn-wrapper active-tech">
+                <button class="technology-btn fw-100">1</button>
+              </div>
+              <div class="btn-wrapper">
+                <button class="technology-btn fw-100">2</button>
+              </div>
+              <div class="btn-wrapper">
+                <button class="technology-btn fw-100">3</button>
+              </div>
+            </div>
+            <div>
+              <p class="uppercase main-p fw-100 clr-light terminology-p">The terminology...</p>
+              <h2 class="technology-type h2 fw-100 uppercase fs-600">Launch vehicle</h2>
+              <p class="technology-description main-p fw-100 clr-light text-width">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
