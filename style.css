@@ -43,11 +43,12 @@ body {
     background-color: var(--clr-dark);
     background-image: url(./assets/home/background-home-tablet.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #destin-bcg {
     background-image: url(./assets/destination/background-destination-tablet.jpg);
-    background-size: cover;
 }
 
 #crew-bcg {
@@ -90,6 +91,14 @@ li {
 
 .fs-600 {
     font-size: var(--fs-600);
+}
+
+.fs-800 {
+    font-size: var(--fs-800);
+}
+
+.ff-serif {
+    font-family: var(--ff-serif);
 }
 
 .gap-1 {
@@ -139,6 +148,14 @@ li {
 
 .margin-top-3 {
     margin-top: 3rem;
+}
+
+.margin-btm-1 {
+    margin-bottom: 1rem;
+}
+
+.margin-btm-2 {
+    margin-bottom: 2rem;
 }
 
 .margin-btm-3 {
@@ -220,18 +237,9 @@ main {
 .bold {
     font-weight: var(--fw-400);
     font-size: var(--fs-900);
-    font-family: var(--ff-serif);
     color: var(--clr-white);
     line-height: 1.5;
 }
-
-.h2 {
-    font-size: var(--fs-700);
-    font-family: var(--ff-serif);
-    margin-bottom: 2rem;
-
-}
-
 
 /* explore button styling */
 
@@ -240,7 +248,6 @@ main {
     background-color: var(--clr-white);
     border-radius: 50%;
     color: var(--clr-dark);
-    font-family: var(--ff-serif);
     font-size: var(--fs-600);
     padding: 6rem 2.5rem;
     margin-top: 6rem;
@@ -287,13 +294,6 @@ main {
 
 .numbers-value {
     font-size: var(--fs-500);
-    font-family: Bellefair, sans-serif;
-}
-
-.destination-place {
-    margin-top: 3rem;
-    font-size: var(--fs-800);
-    margin-bottom: 1rem;
 }
 
 .destination:hover,
@@ -324,8 +324,6 @@ main {
 .crew-member-role {
     color: var(--clr-light);
     font-size: var(--fs-300);
-    font-family: var(--ff-serif);
-    margin-bottom: 1rem;
 }
 
 
@@ -334,7 +332,6 @@ main {
 .technology-btn {
     border: 1px solid rgba(255, 255, 255, 0.25);
     font-size: var(--fs-400);
-    font-family: var(--ff-serif);
     text-align: center;
     display: block;
     width: 3.5rem;
@@ -503,7 +500,7 @@ main {
     }
 
     .numbers-value {
-        font-size: clamp(1rem, 2.5vw, var(--fs-400));
+        font-size: clamp(1rem, 2.5vw, var(--fs-500));
     }
 
     /* crew page */
